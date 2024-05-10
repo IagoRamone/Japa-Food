@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d6d5d0;
+  color: #255855;
+}
+
+header {
+  background-color: #255855;
+  font-family: var(--poppins);
+  color: white;
+  padding: 20px 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: var(--sombra);
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+header img {
+  text-align: left;
+  padding-left: 6px;
+}
+
+main {
+  padding: 20px;
+}
+
+.sobre_empresa,
+.team-section {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.sobre_empresa p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: right;
+  position: absolute;
+  display: flexbox;
+  top: 35%;
+  right: 5%;
+  width: 40%;
+  font-size: 23px;
+  text-align: justify;
+}
+
+.sobre_empresa img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  color: #143e3b;
+}
+
+.time h2 {
+  text-align: right;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 43%;
+  margin-top: 5%;
+}
+
+.time img {
+  text-align: right;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 43%;
+  margin-top: 5%;
+}
+
+footer {
+  background-color: #255855;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
