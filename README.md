@@ -1,2 +1,2 @@
 # Japa-Food
-Trabalho feito em um dia para testar minhas habilidades.
+Simples trabalho de front-end, para uma loja de comidas japonesas.
